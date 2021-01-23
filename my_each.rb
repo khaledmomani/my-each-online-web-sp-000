@@ -1,5 +1,5 @@
 def my_each(collection)
-  while collection 0
+  while collection.length > 0
     yield 
   puts  collection 
 end
