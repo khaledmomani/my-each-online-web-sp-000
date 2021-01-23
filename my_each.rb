@@ -3,6 +3,6 @@ def my_each(collection)
   while collection.length > i
     yield (collection[i])
     i = i + 1
-  puts  collection 
+  return collection 
 end
 end
